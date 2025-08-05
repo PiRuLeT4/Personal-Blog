@@ -12,3 +12,6 @@ There's a lot more to implement and improve on the app but I'll leave it like th
 ### Admin
 To enter to the app as an admin, if not signed up, sign up as `admin` with password `chocolate`.
 Any other names and passwords to sign up as a normal user. (first sign up, then log in)
+
+
+## Url of the projec: https://roadmap.sh/projects/personal-blog
