@@ -14,4 +14,6 @@ To enter to the app as an admin, if not signed up, sign up as `admin` with passw
 Any other names and passwords to sign up as a normal user. (first sign up, then log in)
 
 
+It's on developement mode, just a practise project. No need to set it up on production.
+
 ## Url of the projec: https://roadmap.sh/projects/personal-blog
