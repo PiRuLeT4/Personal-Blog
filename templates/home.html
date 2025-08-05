@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+
+{% block content %}
+  {% for post in posts%}
+    <div class="blog_line">
+      <div class="blog_title">
+        <a href="{{url_for('blog_details', id=post['id'])}}">{{post.title}}</a>
+      </div>
+      <div class="blog_date">
+        <p>{{post.date}}</p>
+      </div>
+    </div>
+  {% endfor %}
+{% endblock %}
+
+
+

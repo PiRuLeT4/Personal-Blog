@@ -1,0 +1,17 @@
+{%extends 'login.html'%}
+
+{% block url %} Register {% endblock %}
+
+{% block title %} Create account {% endblock %}
+
+{% block content %}
+    <form method="post" class="form">
+        <div class="title">
+            <h2>Create account</h2> 
+        </div>
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Sign up</button>
+        <a href="{{url_for('login')}}">Sign in</a>
+    </form>
+{% endblock %}

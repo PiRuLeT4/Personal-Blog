@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+
+{%block title%}Update article {%endblock%}
+
+{%block content%}
+    <form class="form" method="post">
+        <input type="text" name="title" placeholder="Article title" required>
+        <input type="text" name="date" placeholder="Publishing Date" required>
+        <textarea name="content" class="content" placeholder="Content" required></textarea>
+        <button type="submit">Update</button>
+    </form>
+{%endblock%}
